@@ -36,7 +36,8 @@ class ListUrlViewController: UIViewController {
 extension ListUrlViewController {
     
     func setUpUi() {
-        prepareViewModelObserver()
+        self.hideKeyboardWhenTappedAround()
+        self.prepareViewModelObserver()
     }
     
     func checkDataListUrl() {
