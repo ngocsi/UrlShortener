@@ -14,7 +14,7 @@ class UrlShort: Object {
         @objc dynamic public private(set) var fullUrl = ""
         @objc dynamic public private(set) var shortenerUrl = ""
 
-    
+    //
     override class func primaryKey() -> String {
         return "id"
     }
